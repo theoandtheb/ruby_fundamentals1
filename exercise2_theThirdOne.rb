@@ -1,1 +1,0 @@
-puts "So, if I wanted to tell you what 45628 multiplied by 7839 equals, I might say something like: \"I know for a fact that #{45628 * 7839} is the product of multiplying 45628 and 7839.\""
