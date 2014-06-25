@@ -1,4 +1,13 @@
 pets = ["cat", "fish", "dragon", "lawnmower", "stuborn weed", ".bin file", "tamandua", "geranium", "pet rock", "walrus", "flea", "pet rusty nail", "dolphin", "favorite chair", "favorite ceiling tile", "favorite lamp post", "pet brick", "corrupted dataset"]
+def sleepDots
+sleep rand
+print "."
+sleep rand
+print "."
+sleep rand
+print "."
+sleep rand
+end
 vers = (1..5).to_a
 alph = (12..256).to_a
 bet = (213..9634).to_a
@@ -27,13 +36,7 @@ print "\n\nSay, how old are you?  "
 age = gets.chomp
 sleep 0.6
 print "\n\nWow.  You are"
-sleep rand
-print "."
-sleep rand
-print "."
-sleep rand
-print "."
-sleep rand
+sleepDots
 print "  old!"
 sleep 0.9
 print "  Of course, it\'s okay for me to say that as I am a programme."
@@ -51,23 +54,11 @@ sleep 0.6
 print "\n\nJust messing with you."
 sleep 2.2
 print "\n\nIn versions, I think that would make you"
-sleep rand
-print "."
-sleep rand
-print "."
-sleep rand
-print "."
-sleep rand
+sleepDots
 print "  #{vers.sample}.#{alph.sample}.#{bet.sample}."
 sleep 1.8
 print "\n\nSo, that means you were born in"
-sleep rand
-print "."
-sleep rand
-print "."
-sleep rand
-print "."
-sleep rand
+sleepDots
 print "  #{notYear.sample}."
 sleep 1.6
 print "  No, no."
